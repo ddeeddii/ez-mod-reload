@@ -4,7 +4,8 @@
 ; 2 (or any other value) - Disables the script after reload
 newGame = 0
 
-; Tweak the next 2 to your liking
+; Tweak the next 3 to your liking
+
 ; Time in milliseconds to wait for the game to unload mods (default: 2000)
 modsUnloadWait = 2000
 
@@ -31,7 +32,7 @@ tab := "Tab"
 
 
 ; Change this key to whatever you like (default: Numpad8)
-; Do not that the '$' before the key name is optional, but it can be helpful since it block the actual key being sent
+; Do note that the '$' before the key name is optional, but it can be helpful since it block the actual key being sent
 $Numpad8:: 
     SendIsaacKey(esc)
     Sleep, waitTime
