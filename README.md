@@ -21,7 +21,7 @@ For convenience, the actual values are in lines `4`, `8`, `11` and `14`.
 
 ## Changing the hotkey
 The hotkey by default is numpad 8, however it can be easily changed from inside the ahk file.
-Simply replace the `Numpad8` in line `34` with any of the keys defined in [AHK's key list](https://www.autohotkey.com/docs/KeyList.htm)
+Simply replace the `Numpad8` in line `34` with any of the 'special' keys defined in [AHK's key list](https://www.autohotkey.com/docs/KeyList.htm) or any key.
 
 Do note that keeping the `$` before the actual hotkey might be necessary, as it blocks the given key from being triggered on press. 
 
