@@ -10,6 +10,11 @@ Simple AHK script that allows for reloading mods in Isaac quickly.
 This script features a number of customizable values that you probably need to tweak in order to make it work for you.
 The are values are described inside `ezmodreload.ahk`.
 
+## Changing after reload behavior
+After the mods have been reloaded, the script by default, will start a new game as Isaac.
+This can be changed via editing the `newGame` variable on line `5`.
+Possible values are listed inside of the script.
+
 ## Changing timings
 Timings are always given in milliseconds, because they use the `Sleep` function.
 For convenience, the actual values are in lines `4`, `8`, `11` and `14`.

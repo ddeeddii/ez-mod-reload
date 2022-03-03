@@ -1,6 +1,7 @@
 ; Change the behavior of after-load hotkey
 ; 0 - Starts a new run as Isaac (default)
 ; 1 - Continues run
+; 2 (or any other value) - Disables the script after reload
 newGame = 0
 
 ; Tweak the next 2 to your liking
@@ -76,7 +77,7 @@ $Numpad8::
         Sleep, 50
         SendIsaacKey(enter)
     }
-    else {
+    else if(newGame = 1){
         ; Go to continue
         SendIsaacKey(up)
         Sleep, waitTime
