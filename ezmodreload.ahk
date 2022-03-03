@@ -15,7 +15,7 @@ modsLoadWait = 5000
 ; Default wait time for actions in the menu (default: 150)
 waitTime = 150
 
-; Boilerplate for making keys work in Isaac, provide a key to press
+; Helper for making keys work in Isaac, provide a key to press
 SendIsaacKey(key)
 {
     Send, {%key% down} 
