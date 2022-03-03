@@ -27,4 +27,5 @@ Do note that keeping the `$` before the actual hotkey might be necessary, as it 
 
 # Note about safety
 Please keep in mind that pressing any keys during the script's execution **might** lead to your save file being deleted by accident, as the script only simulates keys being pressed, so changing where in the menu they are being pressed might cause unintentional damage.
+
 Always backup your save file!
